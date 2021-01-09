@@ -128,14 +128,13 @@ async function starts() {
 					ownerG: '❌ Perintah ini hanya bisa di gunakan oleh owner group! ❌',
 					ownerB: '❌ Perintah ini hanya bisa di gunakan oleh owner bot! ❌',
 					admin: '❌ Perintah ini hanya bisa di gunakan oleh admin group! ❌',
-					Badmin: '❌ Perintah ini hanya bisa di gunakan ketika bot menjadi admin! ❌'
 				}
 			}
 
-			const botNumber = client.user.jid
-			const ownerNumber = ["6285892766102@s.whatsapp.net"] // replace this with your number
-			const isGroup = from.endsWith('@g.us')
-			const sender = isGroup ? mek.participant : mek.key.remoteJid
+			const  botNumber  =  Bot Super
+			const  ownerNumber  = ["https : //wa.me/6281534162316"] // ganti ini dengan nomor Anda
+			const  isGroup  =  dari . diakhiri dengan ( '@ g.us' )
+			const  sender  =  isGroup  ?  mek . peserta : mek . kunciremoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
 			const groupName = isGroup ? groupMetadata.subject : ''
 			const groupId = isGroup ? groupMetadata.jid : ''
